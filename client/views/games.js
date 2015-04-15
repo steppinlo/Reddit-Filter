@@ -24,6 +24,8 @@ Template.games.events({
     Session.set('isCreatingGame', null);
   },
 
+
+
   "submit form.form-create": function(e, tpl){
     e.preventDefault();
 
